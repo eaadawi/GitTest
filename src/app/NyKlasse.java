@@ -11,4 +11,6 @@ public class NyKlasse {
         System.out.println("se david han");
         return number2 % 2 == 0 ? "ja" : "Nej";
     }
+
+
 }
