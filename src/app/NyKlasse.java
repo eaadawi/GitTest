@@ -10,4 +10,6 @@ public class NyKlasse {
     public String isEven() {
         return number % 2 == 0 ? "ja" : "Nej";
     }
+
+
 }
