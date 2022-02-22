@@ -1,13 +1,14 @@
 package app;
 
 public class NyKlasse {
-    int number;
+   int number2;
 
     public NyKlasse(int number) {
-        this.number = number;
+        this.number2 = number;
     }
 
     public String isEven() {
-        return number % 2 == 0 ? "ja" : "Nej";
+        System.out.println("se david han");
+        return number2 % 2 == 0 ? "ja" : "Nej";
     }
 }
