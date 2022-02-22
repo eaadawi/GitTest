@@ -7,7 +7,7 @@ public class NyKlasse {
         this.number = number;
     }
 
-    public boolean isEven() {
-        return number % 2 == 0;
+    public String isEven() {
+        return number % 2 == 0 ? "ja" : "Nej";
     }
 }
