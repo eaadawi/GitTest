@@ -8,6 +8,7 @@ public class NyKlasse {
     }
 
     public String isEven() {
+        System.out.println(number);
         return number % 2 == 0 ? "ja" : "Nej";
     }
 }
